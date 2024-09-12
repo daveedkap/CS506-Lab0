@@ -25,8 +25,8 @@ def test_cosine_similarity():
 def test_nearest_neighbor():
     target_vector = np.array([1, 2, 3])
     vector_matrix = [
-        np.array([0, 1, 0])
-        np.array([1, 2, 3])
+        np.array([0, 1, 0]),
+        np.array([1, 2, 3]),
         np.array([1, 0, 0])
     ]
     
