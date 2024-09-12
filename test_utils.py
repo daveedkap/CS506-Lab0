@@ -30,7 +30,7 @@ def test_nearest_neighbor():
         np.array([1, 0, 0])
     ]
     
-    result = nearest_neighbor(target_vector, vectors)
+    result = nearest_neighbor(target_vector, vector_matrix)
     
     expected_index = 1
     
